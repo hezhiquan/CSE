@@ -1,0 +1,35 @@
+
+X	java:S125Œ"<This block of commented-out lines of code should be removed.(ƒãó8Ó·æÑ.
+V	java:S106›"9Replace this use of System.out or System.err by a logger.(½ÿş¯8ş¢³êÑ.
+D
+java:S1075ş"&Remove this hard-coded path-delimiter.(¼Ûƒº8Ó·æÑ.
+p
+java:S3776û"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(²¨ “8Ó·æÑ.
+V	java:S106¤"9Replace this use of System.out or System.err by a logger.(µÓ8Ó·æÑ.
+w
+java:S3012˜"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(¤Ä‰™8Ó·æÑ.
+[	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ı·­€ûÿÿÿÿ8­˜âÑ.
+¤
+java:S1186£"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—µ±şıÿÿÿÿ8²¢ÄÜÑ.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(µÅ·µ8²¢ÄÜÑ.
+V	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(Ö¶¨8Ó·æÑ.
+h
+java:S2147Š"ECombine this catch with the one at line 261, which has the same body.(©œ¡ÿÿÿÿÿ8Ó·æÑ.
+[	java:S106‹"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÿ§úÛÑ.
+V	java:S106’"9Replace this use of System.out or System.err by a logger.(½ÿş¯8¨ö²êÑ.
+U	java:S106v"9Replace this use of System.out or System.err by a logger.(‡Úú®8²¢ÄÜÑ.
+Z	java:S106u"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÿ§úÛÑ.
+H
+java:S1075n"&Remove this hard-coded path-delimiter.(¿ÒÌ†úÿÿÿÿ8²¢ÄÜÑ.
+o
+java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(®‘Ñ8²¢ÄÜÑ.
+[	java:S106‡"9Replace this use of System.out or System.err by a logger.(˜É„üÿÿÿÿ8ÿ§úÛÑ.
+[	java:S106Á"9Replace this use of System.out or System.err by a logger.(¦ŞúÚıÿÿÿÿ8Ó·æÑ.
+P
+java:S1135’"2Complete the task associated to this TODO comment.(â¡—×8Ó·æÑ.
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÿ§úÛÑ.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(Ö¶¨8Ó·æÑ.
+n
+java:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(Ï¬­€8Ó·æÑ.
+V	java:S106ª"9Replace this use of System.out or System.err by a logger.(äøÅ¤8Ó·æÑ.
+[	java:S106Œ"9Replace this use of System.out or System.err by a logger.(˜É„üÿÿÿÿ8ÿ§úÛÑ.

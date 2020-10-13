@@ -1,0 +1,55 @@
+
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(¨é¼ó8şİÑ.
+n	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï§ÒÏ8ÊÀèáÑ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(·“¦U8şİÑ.
+s	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨›ûìùÿÿÿÿ8ÊÀèáÑ.
+s	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø”ˆ‡şÿÿÿÿ8ÊÀèáÑ.
+V	java:S106ç"9Replace this use of System.out or System.err by a logger.(»ñ ³8ÊÀèáÑ.
+m	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¶Á)8ºæöºÑ.
+X	java:S125"<This block of commented-out lines of code should be removed.(Ú°à¬8Æ¦¢ßÑ.
+s
+java:S2095Ø"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ÈßŒøûÿÿÿÿ8ÊÀèáÑ.
+c
+java:S1192~"FDefine a constant instead of duplicating this literal ".meta" 4 times.(¯š†¾8ºæöºÑ.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ãÆíÁüÿÿÿÿ8ÑƒèáÑ.
+]	java:S125P"<This block of commented-out lines of code should be removed.(ª½¨¥øÿÿÿÿ8úıİÑ.
+C
+java:S1075~"&Remove this hard-coded path-delimiter.(¯š†¾8Êˆ»¾Ñ.
+V	java:S106¬"9Replace this use of System.out or System.err by a logger.(Ë¢‚×8ÊÀèáÑ.
+U	java:S106‚"9Replace this use of System.out or System.err by a logger.(œª§%8Êˆ»¾Ñ.
+[	java:S106Ä"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ŞİãáÑ.
+]	java:S125C"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8Æ¦¢ßÑ.
+V	java:S106‹"9Replace this use of System.out or System.err by a logger.(¶É½Í8×•âÑ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Â¢…şûÿÿÿÿ8şİÑ.
+V	java:S106‰"9Replace this use of System.out or System.err by a logger.(âË¸…8ÊÀèáÑ.
+[	java:S106ã"9Replace this use of System.out or System.err by a logger.(Ğ¨ê¶ûÿÿÿÿ8ÊÀèáÑ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(óÂ×¼8şİÑ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÙòÜõüÿÿÿÿ8şİÑ.
+V	java:S106Â"9Replace this use of System.out or System.err by a logger.(šĞ»”8ÊÀèáÑ.
+[	java:S106¦"9Replace this use of System.out or System.err by a logger.(–ˆ„¬ùÿÿÿÿ8ÊÀèáÑ.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿ8ÊÀèáÑ.
+V	java:S106Å"9Replace this use of System.out or System.err by a logger.(ŞäÙó8ÊÀèáÑ.
+V	java:S106®"9Replace this use of System.out or System.err by a logger.(Ñ³¢¿8ÊÀèáÑ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(—ì½®øÿÿÿÿ8şİÑ.
+V	java:S106—"9Replace this use of System.out or System.err by a logger.(ÎŒş§8ÊÀèáÑ.
+C
+java:S2129Œ" Remove this "String" constructor(“Ó™€øÿÿÿÿ8½² „Ò.
+D
+java:S1075»"&Remove this hard-coded path-delimiter.(èŒÕÅ8ÊÀèáÑ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(öó‡ı8şİÑ.
+[	java:S106™"9Replace this use of System.out or System.err by a logger.(Š¶³ùÿÿÿÿ8ÊÀèáÑ.
+[	java:S106µ"9Replace this use of System.out or System.err by a logger.(”ëŒ†ıÿÿÿÿ8ÊÀèáÑ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ò§¶ôüÿÿÿÿ8şİÑ.
+U	java:S106f"9Replace this use of System.out or System.err by a logger.(Ëÿ»ä8Š¡Æ¾Ñ.
+D
+java:S1075¸"&Remove this hard-coded path-delimiter.(úîˆç8ÊÀèáÑ.
+d	java:S899Ö"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8ÊÀèáÑ.
+_	java:S899¿"BDo something with the "boolean" value returned by "createNewFile".(×êì8ÊÀèáÑ.
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(Ç—Öìùÿÿÿÿ8›ôÇ¾Ñ.
+I
+java:S1075Ò"&Remove this hard-coded path-delimiter.(§ùûäúÿÿÿÿ8ÊÀèáÑ.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(Çµí‘8şİÑ.
+[	java:S106â"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ŞİãáÑ.
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(Ëÿ»ä8şİÑ.
+Z	java:S106`"9Replace this use of System.out or System.err by a logger.(Â¢…şûÿÿÿÿ8½áÉ¾Ñ.

@@ -1,0 +1,17 @@
+
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8Öğ±ßĞ.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(Û••ßÿÿÿÿÿ8ŒŸÿàĞ.
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18ŒşÜ…Ò.
+:
+java:S2119k"Save and re-use this "Random".(¼İÅf8ôÑÔìĞ.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ƒúÙĞ.
+„
+java:S1130\"gRemove the declaration of thrown exception 'implement.ErrorCodeException' which is a runtime exception.(ç‡àú8üç’Ñ.
+V	java:S106‡"9Replace this use of System.out or System.err by a logger.(ñü¦î8™í£’Ñ.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şˆ©8³‡†ÙĞ.
+C
+java:S1075 "&Remove this hard-coded path-delimiter.(öÿ”ô8Èë—ÙĞ.
+k
+java:S2095~"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(®êûú8¹®ôìĞ.
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(…„–şÿÿÿÿ8ƒúÙĞ.
