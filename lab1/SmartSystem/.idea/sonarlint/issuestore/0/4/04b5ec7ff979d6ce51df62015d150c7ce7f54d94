@@ -1,14 +1,14 @@
 
-i	java:S116"MRename this field "BM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÑ†í8í§ØĞ.
-Z	java:S106q"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8Àš¤áĞ.
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ê—âÿÿÿÿÿ8‘¸¯ØĞ.
-Z	java:S106}"9Replace this use of System.out or System.err by a logger.(É™Üÿÿÿÿÿ8ö¿âáĞ.
-l
-java:S2674;"JCheck the return value of the "read" call to see how many bytes were read.(âş«Òûÿÿÿÿ8›ñØ†Ò.
+Z	java:S106|"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8íúááĞ.
 r
 java:S2095m"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ÈßŒøûÿÿÿÿ8ªÃˆŞÑ.
-U	java:S106r"9Replace this use of System.out or System.err by a logger.(á÷Ûç8’€ØáĞ.
 Z	java:S106@"9Replace this use of System.out or System.err by a logger.(ñìÃŸıÿÿÿÿ8›ñØ†Ò.
-Z	java:S106|"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8íúááĞ.
 c	java:S899j"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8ƒ¦£áĞ.
+Z	java:S106q"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8Àš¤áĞ.
+U	java:S106r"9Replace this use of System.out or System.err by a logger.(á÷Ûç8’€ØáĞ.
+i	java:S116"MRename this field "BM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÑ†í8í§ØĞ.
+l
+java:S2674;"JCheck the return value of the "read" call to see how many bytes were read.(âş«Òûÿÿÿÿ8›ñØ†Ò.
 Z	java:S106?"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8›ñØ†Ò.
+Z	java:S106}"9Replace this use of System.out or System.err by a logger.(É™Üÿÿÿÿÿ8ö¿âáĞ.

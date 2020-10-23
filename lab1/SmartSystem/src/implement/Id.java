@@ -14,11 +14,13 @@ public class Id implements my_interface.Id
         return "src/"+manager+"/"+id+"."+type;
     }
 
+    @Override
     public String getManager()
     {
         return manager;
     }
 
+    @Override
     public String getId()
     {
         return id;

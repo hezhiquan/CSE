@@ -14,32 +14,39 @@ public class FileManagerImpl implements FileManager
     public static FileManagerImpl getFileManager(){
         return fileManager;
     }
+    public FileManagerImpl(String fm){
+        File directory=new File("src/"+fm);
+        if(!directory.exists()){
+            directory.mkdir();
+        }else{
+            System.out.println("文件管理器已存在，请重新输入");
+        }
+
+    }
     private FileManagerImpl()
     {
         this.fileList = new ArrayList<>();
     }
 
-    @Override
-    public my_interface.File getFile(String fileId)
-    {
-        return null;
-    }
+
     public FileImpl getFileImpl(String fm,String filename) {
         int index=indexOfList(fm,filename);
         if(index!=-1){
             return fileList.get(index);
         }
-        File file=new File("src/"+fm+"/"+filename+".meta");
-        try(ObjectInputStream objectInputStream=new ObjectInputStream(new BufferedInputStream(new FileInputStream(file))))
-        {
-            FileImpl file1=(FileImpl) objectInputStream.readObject();
-            fileList.add(file1);
-            //将当前光标设为0
-            file1.setCursor(0);
-            return file1;
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-            System.out.println("获取文件失败");
+        else{
+            File file=new File("src/"+fm+"/"+filename+".meta");
+            try(ObjectInputStream objectInputStream=new ObjectInputStream(new BufferedInputStream(new FileInputStream(file))))
+            {
+                FileImpl file1=(FileImpl) objectInputStream.readObject();
+                fileList.add(file1);
+                //将当前光标设为0
+                file1.setCursor(0);
+                return file1;
+            }catch (Exception e){
+                System.out.println(e.getMessage());
+                System.out.println("获取文件失败");
+            }
         }
         return null;
     }
@@ -53,18 +60,14 @@ public class FileManagerImpl implements FileManager
     private int indexOfList(String fm,String filename){
         for (int i = 0; i < fileList.size(); i++)
         {
-            if(fileList.get(i).getFM().equals(fm)&&fileList.get(i).getFileId().equals(filename)){
+            if(fileList.get(i).getFM().equals(fm)&&fileList.get(i).getFilename().equals(filename)){
                 return i;
             }
         }
         return -1;
     }
 
-    @Override
-    public my_interface.File newFile(String fileId)
-    {
-        return null;
-    }
+
 
     /**
      * 对已经存在的文件写入数据，并将其保存到file.meta中
@@ -82,4 +85,15 @@ public class FileManagerImpl implements FileManager
     }
 
 
+    @Override
+    public my_interface.File getFile(my_interface.Id fileId)
+    {
+        return getFileImpl(fileId.getManager(),fileId.getId());
+    }
+
+    @Override
+    public my_interface.File newFile(my_interface.Id fileId)
+    {
+        return newFileImpl(fileId.getManager(),fileId.getId(),new byte[0]);
+    }
 }

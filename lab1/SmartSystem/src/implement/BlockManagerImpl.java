@@ -8,7 +8,6 @@ import java.nio.ByteBuffer;
 import java.security.MessageDigest;
 
 import java.security.NoSuchAlgorithmException;
-import java.util.LinkedList;
 import java.util.Random;
 
 public class BlockManagerImpl implements BlockManager
@@ -19,14 +18,15 @@ public class BlockManagerImpl implements BlockManager
     public static BlockManagerImpl getBlockManager(){
         return blockManager;
     }
-
-    private int blockSize=32;
-    @Override
-    public Block getBlock(int indexId)
-    {
-        return null;
+    public BlockManagerImpl(String bm){
+        File directory=new File("src/"+bm);
+        if(!directory.exists()){
+            directory.mkdir();
+        }else{
+            System.out.println("块管理器已存在，请重新输入");
+        }
     }
-
+    private int blockSize=3;
     public BlockImpl getBlock(String BM, int blockNumber)
     {
         File file = new File("src/"+BM + "/" + blockNumber + ".meta");
@@ -45,9 +45,16 @@ public class BlockManagerImpl implements BlockManager
 
 
     @Override
+    public Block getBlock(my_interface.Id indexId)
+    {
+        return getBlock(indexId.getManager(),Integer.parseInt(indexId.getId()));
+    }
+
+    @Override
     public Block newBlock(byte[] b)
     {
-         return null;
+         String[][] blockList= allocateBlock(b);
+         return getBlock(blockList[0][0],Integer.parseInt(blockList[0][1]));
     }
 
     /**

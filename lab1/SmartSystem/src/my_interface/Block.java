@@ -2,7 +2,7 @@ package my_interface;
 
 public interface Block
 {
-    int getIndexId();
+    Id getIndexId();
     BlockManager getBlockManager();
     byte[] read();
     int blockSize();

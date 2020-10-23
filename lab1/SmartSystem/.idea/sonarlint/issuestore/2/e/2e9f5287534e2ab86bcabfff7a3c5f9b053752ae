@@ -1,42 +1,39 @@
 
-Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ˆæ‚±şÿÿÿÿ8ÙÎ™çÑ.
-M
-java:S1481"0Remove this unused "fileManager" local variable.(ÜÆÄÆ8ÙÎ™çÑ.
-T	java:S106"9Replace this use of System.out or System.err by a logger.(²Õ™8ÙÎ™çÑ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ÊÜ–8ÙÎ™çÑ.
-l
-java:S2095‹"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(¥Ú¿á8ÙÎ™çÑ.
+U	java:S106|"9Replace this use of System.out or System.err by a logger.(§ÓÖÍ8ÙÎ™çÑ.
+X	java:S125"<This block of commented-out lines of code should be removed.( ÚÉ¢8ºíÔçÑ.
 H
-java:S1075"&Remove this hard-coded path-delimiter.(´Õ£üÿÿÿÿ8ÙÎ™çÑ.
-H
-java:S1075>"&Remove this hard-coded path-delimiter.(äÌÊŞúÿÿÿÿ8ÙÎ™çÑ.
-k
-java:S4042?"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(Š´‚â8ÙÎ™çÑ.
-V	java:S106œ"9Replace this use of System.out or System.err by a logger.(§ÓÖÍ8ÙÎ™çÑ.
-T	java:S106A"9Replace this use of System.out or System.err by a logger.(—Â8ÙÎ™çÑ.
-|
-java:S1149U"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8ÙÎ™çÑ.
-W	java:S899?";Do something with the "boolean" value returned by "delete".(Š´‚â8ÙÎ™çÑ.
-\
-java:S1854"?Remove this useless assignment to local variable "fileManager".(ÜÆÄÆ8ÙÎ™çÑ.
+java:S1075@"&Remove this hard-coded path-delimiter.(äÌÊŞúÿÿÿÿ8ÙÎ™çÑ.
+U	java:S106z"9Replace this use of System.out or System.err by a logger.(§ÓÖÍ8ÙÎ™çÑ.
+[	java:S106€"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÙÎ™çÑ.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ«åc8ºç­Ó.
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(”Ïï¡úÿÿÿÿ8ûìĞêÑ.
 p
-java:S40429"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8ÙÎ™çÑ.
-Z	java:S1068"9Replace this use of System.out or System.err by a logger.(¢âñçûÿÿÿÿ8ÙÎ™çÑ.
-[	java:S106’"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÙÎ™çÑ.
-k
-java:S2095™"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(éÌõü8ÙÎ™çÑ.
-V	java:S106š"9Replace this use of System.out or System.err by a logger.(§ÓÖÍ8ÙÎ™çÑ.
-[	java:S106 "9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÙÎ™çÑ.
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(È‚ı«øÿÿÿÿ
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(¾à§Óùÿÿÿÿ8èšÎŞÑ.
-\	java:S8999";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8ÙÎ™çÑ.
-V	java:S106›"9Replace this use of System.out or System.err by a logger.(§ÓÖÍ8ÙÎ™çÑ.
-X	java:S125"<This block of commented-out lines of code should be removed.( ÚÉ¢8ºíÔçÑ.
-B
-java:S2129 " Remove this "String" constructor(¾à§Óùÿÿÿÿ8Ùä°„Ò.
-L
-java:S1144&"*Remove this unused private "clear" method.(º¥ò·üÿÿÿÿ8Òõ€ìÑ.
-Z	java:S106""9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÙÎ™çÑ.
+java:S4042;"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8ÙÎ™çÑ.
+U	java:S106{"9Replace this use of System.out or System.err by a logger.(§ÓÖÍ8ÙÎ™çÑ.
 P
-java:S1144w".Remove this unused private "spiltByte" method.(úš½Íûÿÿÿÿ8ÙÎ™çÑ.
+java:S1144W".Remove this unused private "spiltByte" method.(úš½Íûÿÿÿÿ8ÙÎ™çÑ.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(ÊÜ–8ÙÎ™çÑ.
+T	java:S106C"9Replace this use of System.out or System.err by a logger.(—Â8ÙÎ™çÑ.
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÙÎ™çÑ.
+H
+java:S1075"&Remove this hard-coded path-delimiter.(´Õ£üÿÿÿÿ8ÙÎ™çÑ.
+\	java:S899;";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8ÙÎ™çÑ.
+\
+java:S1854"?Remove this useless assignment to local variable "fileManager".( Ùø’8ÙÎ™çÑ.
+j
+java:S2095y"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(éÌõü8ÙÎ™çÑ.
+M
+java:S1481"0Remove this unused "fileManager" local variable.( Ùø’8ÙÎ™çÑ.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ˆæ‚±şÿÿÿÿ8ÙÎ™çÑ.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(È‚ı«øÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(²Õ™8ÙÎ™çÑ.
+k
+java:S2095k"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(¥Ú¿á8ÙÎ™çÑ.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ÙÎ™çÑ.
+k
+java:S4042A"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(Š´‚â8ÙÎ™çÑ.
+W	java:S899A";Do something with the "boolean" value returned by "delete".(Š´‚â8ÙÎ™çÑ.
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(¾à§Óùÿÿÿÿ8èšÎŞÑ.
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(¢âñçûÿÿÿÿ8ÙÎ™çÑ.
+L
+java:S1144("*Remove this unused private "clear" method.(º¥ò·üÿÿÿÿ8¼™Å¯Ó.

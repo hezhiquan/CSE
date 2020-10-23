@@ -1,8 +1,10 @@
 
+Q
+java:S1068"/Remove this unused "fileManager" private field.(Œø¸¢þÿÿÿÿ8âö–ÝÑ.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™èÖ³úÿÿÿÿ
 Z
 java:S1854"8Remove this useless assignment to local variable "main".(²ÄˆÝÿÿÿÿÿ8àÔ™ÝÑ.
 K
 java:S1481")Remove this unused "main" local variable.(²ÄˆÝÿÿÿÿÿ8àÔ™ÝÑ.
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™èÖ³úÿÿÿÿ
-Q
-java:S1068"/Remove this unused "fileManager" private field.(é¾—–þÿÿÿÿ8âö–ÝÑ.
+F
+java:S2440"$Remove this instantiation of "Main".(²ÄˆÝÿÿÿÿÿ8€­®ˆÒ.

@@ -1,5 +1,6 @@
 import implement.FileImpl;
 import implement.FileManagerImpl;
+import implement.Id;
 
 import java.io.*;
 public class test
@@ -9,15 +10,18 @@ public class test
 //        String str="0";
 //        byte[] b2=str.getBytes();
 //        System.out.println(b2[0]);
-        clear();
-        String s="\n";
-        System.out.println(new String(s.getBytes()));
+//        clear();
+//        readBm();
         String fm="FM1";
-        String filename="f1";
+        String filename="file1";
         FileManagerImpl fileManager=FileManagerImpl.getFileManager();
+//        Id id=new Id("FM2","file2");
+//        FileImpl file=(FileImpl) fileManager.getFile(id);
+//        System.out.println(file.getFileId().getManager()+" | "+file.getFileId().getId());
 //        getFile(fm,filename);
-        String tmp="1234567890abcde\n" + "ghijklmnopqrst\n" + "u";
-//        System.out.println(bytes2hex03(tmp.getBytes()));
+        getFile("FM2","file2");
+        getFile("FM1","file1");
+
     }
     public static void getFile(String fm,String  filename){
         File file=new File("src/"+fm+"/"+filename+".meta");
@@ -25,7 +29,9 @@ public class test
         {
             FileImpl file1=(FileImpl) objectInputStream.readObject();
             file1.setCursor(0);
-            System.out.println(file1.getFileSize()+" 文件大小| ");
+            System.out.println(file1.getFM()+" "+file1.getFilename());
+            System.out.println(file1.getFileSize()+" 文件大小 ");
+            System.out.println(file1.getBlockSize()+" 块的大小");
             String[][] bl=file1.getBlockLists();
             for (int i = 0; i < bl.length; i++)
             {
@@ -85,7 +91,7 @@ public class test
     }
 
     private static byte[] spiltByte(byte[] bytes,int index,int num){
-        int blockSize=32;
+        int blockSize=5;
         byte[] newBytes;
         if (index+1==num){
             //如果是最后一块，则取end-index*blockSize长度

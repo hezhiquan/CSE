@@ -5,7 +5,7 @@ public interface File
     int MOVE_CURR=0;
     int MOVE_HEAD=1;
     int MOVE_TAIL=2;
-    String getFileId();
+    Id getFileId();
     FileManager getFileManager();
     byte[] read(int length);
     void write(byte[] b);

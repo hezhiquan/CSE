@@ -28,5 +28,11 @@ public class BufferBlockManager
     public void put(String bmAndBlockNum,byte[] data){
         linkedHashMap.put(bmAndBlockNum,data);
     }
-
+    public void clear(){
+        //清空所有的文件缓存
+        if (linkedHashMap.size()!=0){
+            System.out.println("缓存已清空");
+            linkedHashMap.clear();
+        }
+    }
 }

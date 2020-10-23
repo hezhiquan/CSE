@@ -9,7 +9,7 @@ import java.io.*;
 
 public class BlockImpl implements Block,Serializable
 {
-
+    private static final long serialVersionUID =-8781362791982299870L;
     //文件内容的实际大小
     private int actualSize;
     private  int blockSize;
@@ -24,7 +24,7 @@ public class BlockImpl implements Block,Serializable
         this.BM = BM;
         this.blockNumber = blockNumber;
         this.checksum = checksum;
-        this.blockSize=32;
+        this.blockSize=3;
         this.actualSize=actualSize;
     }
 
@@ -34,9 +34,9 @@ public class BlockImpl implements Block,Serializable
     }
 
     @Override
-    public int getIndexId()
+    public Id getIndexId()
     {
-        return 0;
+        return new Id(BM,blockNumber+"");
     }
 
     @Override
